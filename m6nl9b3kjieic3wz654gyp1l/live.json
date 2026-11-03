@@ -1,32 +1,21 @@
 {
     "source":  "push_live v2 (EA status files, read-only)",
-    "asof_utc":  1793747479,
-    "asof_et":  "2026-11-03 18:11:19",
-    "balance":  99146.92,
-    "equity":  99245.24,
-    "floating":  98.32,
-    "day_pnl":  98.32,
+    "asof_utc":  1793748097,
+    "asof_et":  "2026-11-03 18:21:37",
+    "balance":  99222.95,
+    "equity":  99222.95,
+    "floating":  0,
+    "day_pnl":  76.03,
     "floating_by_bot":  {
                             "hydra":  0,
-                            "exodia":  98.32
+                            "exodia":  0
                         },
     "open_count":  {
                        "hydra":  0,
-                       "exodia":  1
+                       "exodia":  0
                    },
     "open":  [
-                 {
-                     "symbol":  "BTCUSD",
-                     "tp":  null,
-                     "lots":  0.05,
-                     "open_et":  "2026-10-29 20:00:00",
-                     "sl":  79520.53,
-                     "pnl":  98.32,
-                     "bot":  "Exodia",
-                     "side":  "SHORT",
-                     "head":  "BMC4h-577",
-                     "entry":  77954.03
-                 }
+
              ],
     "closed":  [
                    {
@@ -387,6 +376,57 @@
                        "exit_reason":  "sl"
                    },
                    {
+                       "bot":  "Hydra",
+                       "head":  "W504",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "SHORT",
+                       "ticket":  "115292877",
+                       "open_et":  "2026-11-03 09:30:01",
+                       "close_et":  "2026-11-03 18:20:16",
+                       "entry":  3942.99,
+                       "exit":  3930.19,
+                       "lots":  0.05,
+                       "sl":  3968.6,
+                       "tp":  3866.16,
+                       "pnl":  63.51,
+                       "exit_reason":  "closed_by_ea_or_manual"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "SHCe20_4h",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "SHORT",
+                       "ticket":  "115302033",
+                       "open_et":  "2026-11-03 14:00:01",
+                       "close_et":  "2026-11-03 18:20:16",
+                       "entry":  3928.05,
+                       "exit":  3930.19,
+                       "lots":  0.02,
+                       "sl":  3973.98,
+                       "tp":  3790.25,
+                       "pnl":  -4.47,
+                       "exit_reason":  "closed_by_ea_or_manual"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "SHSt4h",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "SHORT",
+                       "ticket":  "115295185",
+                       "open_et":  "2026-11-03 10:00:01",
+                       "close_et":  "2026-11-03 18:20:16",
+                       "entry":  3945.16,
+                       "exit":  3930.19,
+                       "lots":  0.02,
+                       "sl":  3978.58,
+                       "tp":  3844.9,
+                       "pnl":  29.75,
+                       "exit_reason":  "closed_by_ea_or_manual"
+                   },
+                   {
                        "bot":  "Exodia",
                        "head":  "LR2h-B",
                        "magic":  null,
@@ -572,6 +612,23 @@
                        "tp":  null,
                        "pnl":  -33.58,
                        "exit_reason":  "signal-flip"
+                   },
+                   {
+                       "bot":  "Exodia",
+                       "head":  "BMC4h-577",
+                       "magic":  null,
+                       "symbol":  "BTCUSD",
+                       "side":  "SHORT",
+                       "ticket":  "115168183",
+                       "open_et":  "2026-10-29 20:00:00",
+                       "close_et":  "2026-11-03 18:20:41",
+                       "entry":  77954.03,
+                       "exit":  77837.68,
+                       "lots":  0.05,
+                       "sl":  79520.53,
+                       "tp":  null,
+                       "pnl":  -12.76,
+                       "exit_reason":  "broker/other close"
                    }
                ]
 }
