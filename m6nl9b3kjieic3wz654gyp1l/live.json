@@ -1,14 +1,14 @@
 {
     "source":  "push_live v2 (EA status files, read-only)",
-    "asof_utc":  1793708494,
-    "asof_et":  "2026-11-03 07:21:34",
+    "asof_utc":  1793709108,
+    "asof_et":  "2026-11-03 07:31:48",
     "balance":  99484.07,
-    "equity":  99508.82,
-    "floating":  24.75,
-    "day_pnl":  378.4,
+    "equity":  99490.71,
+    "floating":  6.64,
+    "day_pnl":  360.29,
     "floating_by_bot":  {
                             "hydra":  0,
-                            "exodia":  24.75
+                            "exodia":  6.64
                         },
     "open_count":  {
                        "hydra":  0,
@@ -21,7 +21,7 @@
                      "lots":  0.05,
                      "open_et":  "2026-10-29 20:00:00",
                      "sl":  79520.53,
-                     "pnl":  24.75,
+                     "pnl":  6.64,
                      "bot":  "Exodia",
                      "side":  "SHORT",
                      "head":  "BMC4h-577",
