@@ -1,7 +1,7 @@
 {
     "source":  "push_live v2 (EA status files, read-only)",
-    "asof_utc":  1793772110,
-    "asof_et":  "2026-11-04 01:01:50",
+    "asof_utc":  1793772720,
+    "asof_et":  "2026-11-04 01:12:00",
     "balance":  100000,
     "equity":  100000,
     "floating":  0,
