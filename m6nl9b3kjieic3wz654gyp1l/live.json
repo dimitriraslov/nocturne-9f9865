@@ -1,11 +1,11 @@
 {
     "source":  "push_live v2 (EA status files, read-only)",
-    "asof_utc":  1793763702,
-    "asof_et":  "2026-11-03 22:41:42",
-    "balance":  99222.95,
-    "equity":  99222.95,
+    "asof_utc":  1793771442,
+    "asof_et":  "2026-11-04 00:50:42",
+    "balance":  100000,
+    "equity":  100000,
     "floating":  0,
-    "day_pnl":  76.03,
+    "day_pnl":  853.08,
     "floating_by_bot":  {
                             "hydra":  0,
                             "exodia":  0
