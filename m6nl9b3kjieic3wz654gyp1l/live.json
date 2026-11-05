@@ -3,34 +3,23 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -132.61,
-    "asof_utc":  1793890878,
-    "asof_et":  "2026-11-05 10:01:18",
-    "balance":  99937.13,
-    "equity":  99867.39,
-    "floating":  -69.74,
-    "day_pnl":  -132.61,
+    "pnl_total":  -145.24,
+    "asof_utc":  1793891481,
+    "asof_et":  "2026-11-05 10:11:21",
+    "balance":  99854.76,
+    "equity":  99854.76,
+    "floating":  0,
+    "day_pnl":  -145.24,
     "floating_by_bot":  {
                             "hydra":  0,
-                            "exodia":  -69.74
+                            "exodia":  0
                         },
     "open_count":  {
                        "hydra":  0,
-                       "exodia":  1
+                       "exodia":  0
                    },
     "open":  [
-                 {
-                     "symbol":  "BTCUSD",
-                     "tp":  null,
-                     "lots":  0.03,
-                     "open_et":  "2026-11-04 11:00:01",
-                     "sl":  77564.09,
-                     "pnl":  -69.74,
-                     "bot":  "Exodia",
-                     "side":  "LONG",
-                     "head":  "LR4h",
-                     "entry":  80265.24
-                 }
+
              ],
     "closed":  [
                    {
@@ -48,6 +37,23 @@
                        "sl":  78166.63,
                        "tp":  null,
                        "pnl":  -62.87,
+                       "exit_reason":  "stop-loss"
+                   },
+                   {
+                       "bot":  "Exodia",
+                       "head":  "LR4h",
+                       "magic":  null,
+                       "symbol":  "BTCUSD",
+                       "side":  "LONG",
+                       "ticket":  "380879209",
+                       "open_et":  "2026-11-04 11:00:01",
+                       "close_et":  "2026-11-05 10:02:15",
+                       "entry":  80265.24,
+                       "exit":  77564.09,
+                       "lots":  0.03,
+                       "sl":  77564.09,
+                       "tp":  null,
+                       "pnl":  -82.37,
                        "exit_reason":  "stop-loss"
                    }
                ]
