@@ -3,16 +3,16 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -149.98,
-    "asof_utc":  1793965273,
-    "asof_et":  "2026-11-06 06:41:13",
+    "pnl_total":  -152.4,
+    "asof_utc":  1793965885,
+    "asof_et":  "2026-11-06 06:51:25",
     "balance":  99854.76,
-    "equity":  99850.02,
-    "floating":  -4.74,
-    "day_pnl":  -4.74,
+    "equity":  99847.6,
+    "floating":  -7.16,
+    "day_pnl":  -7.16,
     "floating_by_bot":  {
                             "hydra":  0,
-                            "exodia":  -4.74
+                            "exodia":  -7.16
                         },
     "open_count":  {
                        "hydra":  0,
@@ -25,7 +25,7 @@
                      "lots":  0.04,
                      "open_et":  "2026-11-05 11:00:00",
                      "sl":  77772.34,
-                     "pnl":  -4.74,
+                     "pnl":  -7.16,
                      "bot":  "Exodia",
                      "side":  "SHORT",
                      "head":  "AtrExp2h",
