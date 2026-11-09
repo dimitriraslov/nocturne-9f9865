@@ -3,29 +3,41 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -114.41,
-    "asof_utc":  1794185488,
-    "asof_et":  "2026-11-08 19:51:28",
+    "pnl_total":  -122.96,
+    "asof_utc":  1794186097,
+    "asof_et":  "2026-11-08 20:01:37",
     "balance":  99854.76,
-    "equity":  99885.59,
-    "floating":  30.83,
-    "day_pnl":  30.83,
+    "equity":  99877.04,
+    "floating":  22.28,
+    "day_pnl":  22.28,
     "floating_by_bot":  {
-                            "hydra":  0,
-                            "exodia":  30.83
+                            "hydra":  null,
+                            "exodia":  null
                         },
     "open_count":  {
-                       "hydra":  0,
+                       "hydra":  1,
                        "exodia":  1
                    },
     "open":  [
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  0,
+                     "lots":  0.06,
+                     "open_et":  "2026-11-08 20:00:01",
+                     "sl":  4075.17,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "LONG",
+                     "head":  "BB155",
+                     "entry":  4107.49
+                 },
                  {
                      "symbol":  "BTCUSD",
                      "tp":  null,
                      "lots":  0.04,
                      "open_et":  "2026-11-05 11:00:00",
                      "sl":  77772.34,
-                     "pnl":  30.83,
+                     "pnl":  null,
                      "bot":  "Exodia",
                      "side":  "SHORT",
                      "head":  "AtrExp2h",
