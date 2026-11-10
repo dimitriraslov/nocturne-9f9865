@@ -3,23 +3,34 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -202.17,
-    "asof_utc":  1794318691,
-    "asof_et":  "2026-11-10 08:51:31",
+    "pnl_total":  -203.98,
+    "asof_utc":  1794319294,
+    "asof_et":  "2026-11-10 09:01:34",
     "balance":  99546.11,
-    "equity":  99797.83,
-    "floating":  251.72,
-    "day_pnl":  -75.82,
+    "equity":  99796.02,
+    "floating":  249.91,
+    "day_pnl":  -77.63,
     "floating_by_bot":  {
-                            "hydra":  0,
+                            "hydra":  249.91,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  0,
+                       "hydra":  1,
                        "exodia":  0
                    },
     "open":  [
-
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  0,
+                     "lots":  0.01,
+                     "open_et":  "2026-11-10 09:00:00",
+                     "sl":  4108.86,
+                     "pnl":  249.91,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "WillR",
+                     "entry":  4051.52
+                 }
              ],
     "closed":  [
                    {
