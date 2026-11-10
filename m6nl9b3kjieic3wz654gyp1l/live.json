@@ -4,8 +4,8 @@
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
     "pnl_total":  -35.56,
-    "asof_utc":  1794349874,
-    "asof_et":  "2026-11-10 17:31:14",
+    "asof_utc":  1794350463,
+    "asof_et":  "2026-11-10 17:41:03",
     "balance":  99546.11,
     "equity":  99964.44,
     "floating":  418.33,
@@ -15,7 +15,7 @@
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  1,
+                       "hydra":  5,
                        "exodia":  0
                    },
     "open":  [
@@ -25,11 +25,59 @@
                      "lots":  0.01,
                      "open_et":  "2026-11-10 09:00:00",
                      "sl":  4108.86,
-                     "pnl":  418.33,
+                     "pnl":  null,
                      "bot":  "Hydra",
                      "side":  "SHORT",
                      "head":  "WillR",
                      "entry":  4051.52
+                 },
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3903.79,
+                     "lots":  0.01,
+                     "open_et":  "2026-11-10 06:00:01",
+                     "sl":  4131.6,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "SHCe20_4h",
+                     "entry":  4074.65
+                 },
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3887.12,
+                     "lots":  0.01,
+                     "open_et":  "2026-11-10 06:00:01",
+                     "sl":  4137.24,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "SHSar4h",
+                     "entry":  4074.71
+                 },
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3990.01,
+                     "lots":  0.02,
+                     "open_et":  "2026-11-09 22:00:00",
+                     "sl":  4152.37,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "SHPiv4h",
+                     "entry":  4111.78
+                 },
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3973.24,
+                     "lots":  0.02,
+                     "open_et":  "2026-11-09 22:00:00",
+                     "sl":  4157.96,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "SHCe10_4h",
+                     "entry":  4111.78
                  }
              ],
     "closed":  [
