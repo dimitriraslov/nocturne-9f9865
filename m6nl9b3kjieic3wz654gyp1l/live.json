@@ -3,19 +3,19 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -136.04,
-    "asof_utc":  1794304269,
-    "asof_et":  "2026-11-10 04:51:09",
-    "balance":  99873.65,
-    "equity":  99863.96,
-    "floating":  -9.69,
-    "day_pnl":  -9.69,
+    "pnl_total":  -5.94,
+    "asof_utc":  1794304876,
+    "asof_et":  "2026-11-10 05:01:16",
+    "balance":  99748.61,
+    "equity":  99994.06,
+    "floating":  245.45,
+    "day_pnl":  120.41,
     "floating_by_bot":  {
-                            "hydra":  -9.69,
+                            "hydra":  245.45,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  2,
+                       "hydra":  1,
                        "exodia":  0
                    },
     "open":  [
@@ -25,26 +25,31 @@
                      "lots":  0.27,
                      "open_et":  "2026-11-10 04:38:35",
                      "sl":  4074.9,
-                     "pnl":  null,
+                     "pnl":  245.45,
                      "bot":  "Hydra",
                      "side":  "LONG",
                      "head":  "ST",
                      "entry":  4082.33
-                 },
-                 {
-                     "symbol":  "XAUUSD",
-                     "tp":  3973.24,
-                     "lots":  0.02,
-                     "open_et":  "2026-11-09 22:00:00",
-                     "sl":  4157.96,
-                     "pnl":  null,
-                     "bot":  "Hydra",
-                     "side":  "SHORT",
-                     "head":  "SHCe10_4h",
-                     "entry":  4111.78
                  }
              ],
     "closed":  [
+                   {
+                       "bot":  "Hydra",
+                       "head":  "BB155",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "LONG",
+                       "ticket":  "381485692",
+                       "open_et":  "2026-11-08 20:00:01",
+                       "close_et":  "2026-11-10 05:00:01",
+                       "entry":  4107.49,
+                       "exit":  4087.26,
+                       "lots":  0.06,
+                       "sl":  4075.17,
+                       "tp":  0,
+                       "pnl":  -125.04,
+                       "exit_reason":  "ema50 close-trail (bar 2026.11.10 05:00:00 NY close 4087.42 ema50 4101.95)"
+                   },
                    {
                        "bot":  "Exodia",
                        "head":  "LR2h-A",
