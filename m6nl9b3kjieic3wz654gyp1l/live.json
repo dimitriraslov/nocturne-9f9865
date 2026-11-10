@@ -3,34 +3,23 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  -220.61,
-    "asof_utc":  1794306091,
-    "asof_et":  "2026-11-10 05:21:31",
-    "balance":  99748.61,
-    "equity":  99779.39,
-    "floating":  30.78,
-    "day_pnl":  -94.26,
+    "pnl_total":  -305.53,
+    "asof_utc":  1794306696,
+    "asof_et":  "2026-11-10 05:31:36",
+    "balance":  99546.11,
+    "equity":  99694.47,
+    "floating":  148.36,
+    "day_pnl":  -179.18,
     "floating_by_bot":  {
-                            "hydra":  30.78,
+                            "hydra":  0,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  1,
+                       "hydra":  0,
                        "exodia":  0
                    },
     "open":  [
-                 {
-                     "symbol":  "XAUUSD",
-                     "tp":  4100.91,
-                     "lots":  0.27,
-                     "open_et":  "2026-11-10 04:38:35",
-                     "sl":  4074.9,
-                     "pnl":  30.78,
-                     "bot":  "Hydra",
-                     "side":  "LONG",
-                     "head":  "ST",
-                     "entry":  4082.33
-                 }
+
              ],
     "closed":  [
                    {
@@ -49,6 +38,23 @@
                        "tp":  0,
                        "pnl":  -125.04,
                        "exit_reason":  "ema50 close-trail (bar 2026.11.10 05:00:00 NY close 4087.42 ema50 4101.95)"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "ST",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "LONG",
+                       "ticket":  "381767402",
+                       "open_et":  "2026-11-10 04:38:35",
+                       "close_et":  "2026-11-10 05:30:46",
+                       "entry":  4082.33,
+                       "exit":  4074.9,
+                       "lots":  0.27,
+                       "sl":  4074.9,
+                       "tp":  4100.91,
+                       "pnl":  -202.5,
+                       "exit_reason":  "sl"
                    },
                    {
                        "bot":  "Exodia",
