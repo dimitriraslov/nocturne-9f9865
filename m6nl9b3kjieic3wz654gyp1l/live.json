@@ -5,13 +5,13 @@
     "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  629.35,
-    "asof_utc":  1794519068,
-    "asof_et":  "2026-11-12 16:31:08",
+    "pnl_total":  628.86,
+    "asof_utc":  1794519678,
+    "asof_et":  "2026-11-12 16:41:18",
     "balance":  100447.38,
-    "equity":  100629.35,
-    "floating":  181.97,
-    "day_pnl":  839.08,
+    "equity":  100628.86,
+    "floating":  181.48,
+    "day_pnl":  838.59,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
@@ -285,5 +285,140 @@
                        "pnl":  18.89,
                        "exit_reason":  "time-stop(48 bars)"
                    }
-               ]
+               ],
+    "uni_asof":  "2026-11-12 16:36 ET",
+    "uni":  {
+                "name":  "UNI",
+                "sub":  "UniBot KEEP · paper · IC Markets · core = off-symbol",
+                "trades":  [
+                               {
+                                   "open":  "2026-10-21 02:00:00",
+                                   "close":  "2026-10-22 11:28:00",
+                                   "sym":  "US100",
+                                   "strat":  "#624 EOM · core",
+                                   "side":  "LONG",
+                                   "entry":  29704.186,
+                                   "exit":  29181.940313337145,
+                                   "pnl":  -501.1586995502615,
+                                   "R":  -1.011096951438118,
+                                   "reason":  "sl"
+                               },
+                               {
+                                   "open":  "2026-10-09 18:00:00",
+                                   "close":  "2026-10-21 18:00:00",
+                                   "sym":  "USDJPY",
+                                   "strat":  "#636 Stoch MACD · core",
+                                   "side":  "LONG",
+                                   "entry":  158.315,
+                                   "exit":  158.079,
+                                   "pnl":  -29.11680479704301,
+                                   "R":  -0.06048784558086754,
+                                   "reason":  "time"
+                               },
+                               {
+                                   "open":  "2026-10-22 05:00:00",
+                                   "close":  "2026-10-23 17:00:00",
+                                   "sym":  "XAUUSD",
+                                   "strat":  "#561 Raschke Anti",
+                                   "side":  "SHORT",
+                                   "entry":  4087.7349999999997,
+                                   "exit":  4000.175,
+                                   "pnl":  611.3434019699965,
+                                   "R":  1.3388647413514987,
+                                   "reason":  "signal"
+                               },
+                               {
+                                   "open":  "2026-10-16 05:00:00",
+                                   "close":  "2026-10-16 11:33:00",
+                                   "sym":  "EURUSD",
+                                   "strat":  "#521 VB fade · core",
+                                   "side":  "SHORT",
+                                   "entry":  1.1236899999999999,
+                                   "exit":  1.126967137346653,
+                                   "pnl":  -509.05201403792984,
+                                   "R":  -1.0246370853645692,
+                                   "reason":  "sl"
+                               },
+                               {
+                                   "open":  "2026-10-21 16:00:00",
+                                   "close":  "2026-10-22 06:48:00",
+                                   "sym":  "BTCUSD",
+                                   "strat":  "#666B Accel Bands",
+                                   "side":  "LONG",
+                                   "entry":  84561.14627060013,
+                                   "exit":  82444.07825058779,
+                                   "pnl":  -246.5688584800616,
+                                   "R":  -1.0671050118938743,
+                                   "reason":  "sl"
+                               },
+                               {
+                                   "open":  "2026-10-26 18:01:00",
+                                   "close":  "2026-10-28 18:00:00",
+                                   "sym":  "US100",
+                                   "strat":  "#624 EOM · core",
+                                   "side":  "LONG",
+                                   "entry":  29314.765,
+                                   "exit":  29606.221,
+                                   "pnl":  252.91361231507022,
+                                   "R":  0.5104488532745224,
+                                   "reason":  "time"
+                               },
+                               {
+                                   "open":  "2026-10-28 16:15:00",
+                                   "close":  "2026-10-29 13:17:00",
+                                   "sym":  "EURUSD",
+                                   "strat":  "#521 VB fade · core",
+                                   "side":  "SHORT",
+                                   "entry":  1.11442,
+                                   "exit":  1.1115785971659669,
+                                   "pnl":  491.1729959557948,
+                                   "R":  0.9877877224642777,
+                                   "reason":  "tp"
+                               },
+                               {
+                                   "open":  "2026-11-09 09:00:00",
+                                   "close":  "2026-11-10 09:00:00",
+                                   "sym":  "XAUUSD",
+                                   "strat":  "#561 Raschke Anti",
+                                   "side":  "LONG",
+                                   "entry":  4109.06,
+                                   "exit":  4074.16,
+                                   "pnl":  -178.25013420000275,
+                                   "R":  -0.4122454380056863,
+                                   "reason":  "signal"
+                               }
+                           ],
+                "open":  [
+                             {
+                                 "strat":  "#636 Stoch MACD · core",
+                                 "sym":  "USDJPY",
+                                 "side":  "LONG",
+                                 "open":  "2026-10-26 10:00:00",
+                                 "entry":  157.368,
+                                 "stop":  154.4195,
+                                 "lots":  0.26,
+                                 "core":  true
+                             },
+                             {
+                                 "strat":  "#658 APZ · core",
+                                 "sym":  "US100",
+                                 "side":  "LONG",
+                                 "open":  "2026-10-30 02:00:00",
+                                 "entry":  28835.797,
+                                 "stop":  27747.1519,
+                                 "lots":  0.22,
+                                 "core":  true
+                             }
+                         ],
+                "heads":  [
+                              "#624 EOM · core",
+                              "#636 Stoch MACD · core",
+                              "#561 Raschke Anti",
+                              "#521 VB fade · core",
+                              "#658 APZ · core",
+                              "#555 Session momentum",
+                              "#666B Accel Bands",
+                              "#552 LiqFlip · core"
+                          ]
+            }
 }
