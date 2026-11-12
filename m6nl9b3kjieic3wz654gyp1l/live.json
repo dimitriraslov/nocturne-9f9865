@@ -3,20 +3,20 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  634.18,
-    "asof_utc":  1794498666,
-    "asof_et":  "2026-11-12 10:51:06",
+    "pnl_total":  634.38,
+    "asof_utc":  1794499272,
+    "asof_et":  "2026-11-12 11:01:12",
     "balance":  100447.38,
-    "equity":  100634.18,
-    "floating":  186.8,
-    "day_pnl":  843.91,
+    "equity":  100634.38,
+    "floating":  187,
+    "day_pnl":  844.11,
     "floating_by_bot":  {
-                            "hydra":  186.8,
-                            "exodia":  0
+                            "hydra":  null,
+                            "exodia":  null
                         },
     "open_count":  {
                        "hydra":  1,
-                       "exodia":  0
+                       "exodia":  1
                    },
     "open":  [
                  {
@@ -25,11 +25,23 @@
                      "lots":  0.01,
                      "open_et":  "2026-11-10 09:00:00",
                      "sl":  4108.86,
-                     "pnl":  186.8,
+                     "pnl":  null,
                      "bot":  "Hydra",
                      "side":  "SHORT",
                      "head":  "WillR",
                      "entry":  4051.52
+                 },
+                 {
+                     "symbol":  "BTCUSD",
+                     "tp":  null,
+                     "lots":  0.05,
+                     "open_et":  "2026-11-12 11:00:01",
+                     "sl":  73043.23,
+                     "pnl":  null,
+                     "bot":  "Exodia",
+                     "side":  "SHORT",
+                     "head":  "BMC4h-577",
+                     "entry":  71585.35
                  }
              ],
     "closed":  [
