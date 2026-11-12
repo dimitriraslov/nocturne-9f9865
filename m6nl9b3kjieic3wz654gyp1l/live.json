@@ -3,34 +3,22 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  216.48,
-    "asof_utc":  1794441708,
-    "asof_et":  "2026-11-11 19:01:48",
-    "balance":  99790.27,
-    "equity":  100216.48,
-    "floating":  426.21,
-    "day_pnl":  426.21,
+    "pnl_total":  208.83,
+    "asof_utc":  1794442319,
+    "asof_et":  "2026-11-11 19:11:59",
+    "balance":  99921.52,
+    "equity":  100208.83,
+    "floating":  287.31,
+    "day_pnl":  418.56,
     "floating_by_bot":  {
-                            "hydra":  426.21,
+                            "hydra":  287.31,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  5,
+                       "hydra":  3,
                        "exodia":  0
                    },
     "open":  [
-                 {
-                     "symbol":  "XAUUSD",
-                     "tp":  4111.32,
-                     "lots":  0.04,
-                     "open_et":  "2026-11-11 11:00:01",
-                     "sl":  3969.45,
-                     "pnl":  null,
-                     "bot":  "Hydra",
-                     "side":  "LONG",
-                     "head":  "W949",
-                     "entry":  4004.92
-                 },
                  {
                      "symbol":  "XAUUSD",
                      "tp":  0,
@@ -42,18 +30,6 @@
                      "side":  "SHORT",
                      "head":  "WillR",
                      "entry":  4051.52
-                 },
-                 {
-                     "symbol":  "XAUUSD",
-                     "tp":  3887.12,
-                     "lots":  0.01,
-                     "open_et":  "2026-11-10 06:00:01",
-                     "sl":  4137.24,
-                     "pnl":  null,
-                     "bot":  "Hydra",
-                     "side":  "SHORT",
-                     "head":  "SHSar4h",
-                     "entry":  4074.71
                  },
                  {
                      "symbol":  "XAUUSD",
@@ -69,15 +45,15 @@
                  },
                  {
                      "symbol":  "XAUUSD",
-                     "tp":  3973.24,
-                     "lots":  0.02,
-                     "open_et":  "2026-11-09 22:00:00",
-                     "sl":  4157.96,
+                     "tp":  3887.12,
+                     "lots":  0.01,
+                     "open_et":  "2026-11-10 06:00:01",
+                     "sl":  4137.24,
                      "pnl":  null,
                      "bot":  "Hydra",
                      "side":  "SHORT",
-                     "head":  "SHCe10_4h",
-                     "entry":  4111.78
+                     "head":  "SHSar4h",
+                     "entry":  4074.71
                  }
              ],
     "closed":  [
@@ -131,6 +107,40 @@
                        "tp":  3990.01,
                        "pnl":  244.16,
                        "exit_reason":  "tp"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "SHCe10_4h",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "SHORT",
+                       "ticket":  "381719343",
+                       "open_et":  "2026-11-09 22:00:00",
+                       "close_et":  "2026-11-11 19:08:01",
+                       "entry":  4111.78,
+                       "exit":  3973.24,
+                       "lots":  0.02,
+                       "sl":  4157.96,
+                       "tp":  3973.24,
+                       "pnl":  279.96,
+                       "exit_reason":  "tp"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "W949",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "LONG",
+                       "ticket":  "382118584",
+                       "open_et":  "2026-11-11 11:00:01",
+                       "close_et":  "2026-11-11 19:10:09",
+                       "entry":  4004.92,
+                       "exit":  3969.45,
+                       "lots":  0.04,
+                       "sl":  3969.45,
+                       "tp":  4111.32,
+                       "pnl":  -148.71,
+                       "exit_reason":  "sl"
                    },
                    {
                        "bot":  "Exodia",
