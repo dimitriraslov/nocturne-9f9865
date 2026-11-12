@@ -3,22 +3,34 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  218.85,
-    "asof_utc":  1794466285,
-    "asof_et":  "2026-11-12 01:51:25",
+    "pnl_total":  222.22,
+    "asof_utc":  1794466898,
+    "asof_et":  "2026-11-12 02:01:38",
     "balance":  99921.52,
-    "equity":  100218.85,
-    "floating":  297.33,
-    "day_pnl":  428.58,
+    "equity":  100222.22,
+    "floating":  300.7,
+    "day_pnl":  431.95,
     "floating_by_bot":  {
-                            "hydra":  297.33,
+                            "hydra":  300.7,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  3,
+                       "hydra":  4,
                        "exodia":  0
                    },
     "open":  [
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3859.72,
+                     "lots":  0.04,
+                     "open_et":  "2026-11-12 02:00:00",
+                     "sl":  4000.52,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "MTF185",
+                     "entry":  3965.32
+                 },
                  {
                      "symbol":  "XAUUSD",
                      "tp":  0,
@@ -33,18 +45,6 @@
                  },
                  {
                      "symbol":  "XAUUSD",
-                     "tp":  3903.79,
-                     "lots":  0.01,
-                     "open_et":  "2026-11-10 06:00:01",
-                     "sl":  4131.6,
-                     "pnl":  null,
-                     "bot":  "Hydra",
-                     "side":  "SHORT",
-                     "head":  "SHCe20_4h",
-                     "entry":  4074.65
-                 },
-                 {
-                     "symbol":  "XAUUSD",
                      "tp":  3887.12,
                      "lots":  0.01,
                      "open_et":  "2026-11-10 06:00:01",
@@ -54,6 +54,18 @@
                      "side":  "SHORT",
                      "head":  "SHSar4h",
                      "entry":  4074.71
+                 },
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3903.79,
+                     "lots":  0.01,
+                     "open_et":  "2026-11-10 06:00:01",
+                     "sl":  4131.6,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "SHCe20_4h",
+                     "entry":  4074.65
                  }
              ],
     "closed":  [
