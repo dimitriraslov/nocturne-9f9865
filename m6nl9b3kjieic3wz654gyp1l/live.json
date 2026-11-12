@@ -3,15 +3,15 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  175.83,
-    "asof_utc":  1794448922,
-    "asof_et":  "2026-11-11 21:02:02",
+    "pnl_total":  165.96,
+    "asof_utc":  1794449472,
+    "asof_et":  "2026-11-11 21:11:12",
     "balance":  99921.52,
-    "equity":  100175.83,
-    "floating":  254.31,
-    "day_pnl":  385.56,
+    "equity":  100165.96,
+    "floating":  244.44,
+    "day_pnl":  375.69,
     "floating_by_bot":  {
-                            "hydra":  254.31,
+                            "hydra":  244.44,
                             "exodia":  0
                         },
     "open_count":  {
