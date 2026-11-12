@@ -1,15 +1,17 @@
 {
     "source":  "push_live v2 (EA status files, read-only)",
     "book_label":  "IC Markets demo",
+    "hydra_version":  "1.20",
+    "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  619.02,
-    "asof_utc":  1794513089,
-    "asof_et":  "2026-11-12 14:51:29",
+    "pnl_total":  615.42,
+    "asof_utc":  1794513272,
+    "asof_et":  "2026-11-12 14:54:32",
     "balance":  100447.38,
-    "equity":  100619.02,
-    "floating":  171.64,
-    "day_pnl":  828.75,
+    "equity":  100615.42,
+    "floating":  168.04,
+    "day_pnl":  825.15,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
