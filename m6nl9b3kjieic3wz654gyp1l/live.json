@@ -3,34 +3,22 @@
     "book_label":  "IC Markets demo",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  490.75,
-    "asof_utc":  1794491472,
-    "asof_et":  "2026-11-12 08:51:12",
-    "balance":  99900.19,
-    "equity":  100490.75,
-    "floating":  590.56,
-    "day_pnl":  700.48,
+    "pnl_total":  470.07,
+    "asof_utc":  1794492079,
+    "asof_et":  "2026-11-12 09:01:19",
+    "balance":  100025.26,
+    "equity":  100470.07,
+    "floating":  444.81,
+    "day_pnl":  679.8,
     "floating_by_bot":  {
-                            "hydra":  590.56,
+                            "hydra":  444.81,
                             "exodia":  0
                         },
     "open_count":  {
-                       "hydra":  4,
+                       "hydra":  2,
                        "exodia":  0
                    },
     "open":  [
-                 {
-                     "symbol":  "XAUUSD",
-                     "tp":  4203.08,
-                     "lots":  0.01,
-                     "open_et":  "2026-11-12 06:00:00",
-                     "sl":  3871.36,
-                     "pnl":  null,
-                     "bot":  "Hydra",
-                     "side":  "LONG",
-                     "head":  "W138",
-                     "entry":  3954.29
-                 },
                  {
                      "symbol":  "XAUUSD",
                      "tp":  3859.72,
@@ -209,6 +197,23 @@
                        "tp":  3887.12,
                        "pnl":  189.03,
                        "exit_reason":  "tp"
+                   },
+                   {
+                       "bot":  "Hydra",
+                       "head":  "W138",
+                       "magic":  null,
+                       "symbol":  "XAUUSD",
+                       "side":  "LONG",
+                       "ticket":  "382277041",
+                       "open_et":  "2026-11-12 06:00:00",
+                       "close_et":  "2026-11-12 09:00:00",
+                       "entry":  3954.29,
+                       "exit":  3890.4,
+                       "lots":  0.01,
+                       "sl":  3871.36,
+                       "tp":  4203.08,
+                       "pnl":  -63.96,
+                       "exit_reason":  "signal exit (bar 2026.11.12 09:00:00 NY)"
                    },
                    {
                        "bot":  "Exodia",
