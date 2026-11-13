@@ -5,22 +5,34 @@
     "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  646.63,
-    "asof_utc":  1794536507,
-    "asof_et":  "2026-11-12 21:21:47",
+    "pnl_total":  636.14,
+    "asof_utc":  1794537114,
+    "asof_et":  "2026-11-12 21:31:54",
     "balance":  100447.38,
-    "equity":  100646.63,
-    "floating":  199.25,
-    "day_pnl":  199.25,
+    "equity":  100636.14,
+    "floating":  188.76,
+    "day_pnl":  188.76,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
                         },
     "open_count":  {
-                       "hydra":  1,
+                       "hydra":  2,
                        "exodia":  1
                    },
     "open":  [
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3833.26,
+                     "lots":  0.06,
+                     "open_et":  "2026-11-12 21:30:00",
+                     "sl":  3930.45,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "W504",
+                     "entry":  3906.15
+                 },
                  {
                      "symbol":  "XAUUSD",
                      "tp":  0,
