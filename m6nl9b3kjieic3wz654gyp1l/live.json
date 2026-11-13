@@ -5,13 +5,13 @@
     "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  1296.61,
-    "asof_utc":  1794584467,
-    "asof_et":  "2026-11-13 10:41:07",
+    "pnl_total":  1110.72,
+    "asof_utc":  1794585072,
+    "asof_et":  "2026-11-13 10:51:12",
     "balance":  100447.38,
-    "equity":  101296.61,
-    "floating":  849.23,
-    "day_pnl":  849.23,
+    "equity":  101110.72,
+    "floating":  663.34,
+    "day_pnl":  663.34,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
@@ -358,7 +358,7 @@
                        "exit_reason":  "time-stop(48 bars)"
                    }
                ],
-    "uni_asof":  "2026-11-13 10:33 ET",
+    "uni_asof":  "2026-11-13 10:48 ET",
     "uni":  {
                 "name":  "UNI",
                 "sub":  "UniBot KEEP · paper · IC Markets · core = off-symbol",
