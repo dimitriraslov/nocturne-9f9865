@@ -5,20 +5,20 @@
     "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  643.66,
-    "asof_utc":  1794541888,
-    "asof_et":  "2026-11-12 22:51:28",
+    "pnl_total":  650.62,
+    "asof_utc":  1794542492,
+    "asof_et":  "2026-11-12 23:01:32",
     "balance":  100447.38,
-    "equity":  100643.66,
-    "floating":  196.28,
-    "day_pnl":  196.28,
+    "equity":  100650.62,
+    "floating":  203.24,
+    "day_pnl":  203.24,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
                         },
     "open_count":  {
                        "hydra":  2,
-                       "exodia":  1
+                       "exodia":  4
                    },
     "open":  [
                  {
@@ -44,6 +44,42 @@
                      "side":  "SHORT",
                      "head":  "WillR",
                      "entry":  4051.52
+                 },
+                 {
+                     "symbol":  "BTCUSD",
+                     "tp":  null,
+                     "lots":  0.02,
+                     "open_et":  "2026-11-12 23:00:00",
+                     "sl":  71588.68,
+                     "pnl":  null,
+                     "bot":  "Exodia",
+                     "side":  "SHORT",
+                     "head":  "AtrCh4h",
+                     "entry":  68854.56
+                 },
+                 {
+                     "symbol":  "BTCUSD",
+                     "tp":  null,
+                     "lots":  0.03,
+                     "open_et":  "2026-11-12 23:00:00",
+                     "sl":  70934.19,
+                     "pnl":  null,
+                     "bot":  "Exodia",
+                     "side":  "SHORT",
+                     "head":  "LR2h-A",
+                     "entry":  68880.55
+                 },
+                 {
+                     "symbol":  "BTCUSD",
+                     "tp":  null,
+                     "lots":  0.02,
+                     "open_et":  "2026-11-12 23:00:00",
+                     "sl":  71588.68,
+                     "pnl":  null,
+                     "bot":  "Exodia",
+                     "side":  "SHORT",
+                     "head":  "LR4h",
+                     "entry":  68866.88
                  },
                  {
                      "symbol":  "BTCUSD",
