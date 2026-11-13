@@ -5,22 +5,34 @@
     "exodia_version":  "3.11",
     "start_balance":  100000,
     "since_et":  "2026-11-03 22:50:00",
-    "pnl_total":  697.79,
-    "asof_utc":  1794577268,
-    "asof_et":  "2026-11-13 08:41:08",
+    "pnl_total":  945.61,
+    "asof_utc":  1794578479,
+    "asof_et":  "2026-11-13 09:01:19",
     "balance":  100447.38,
-    "equity":  100697.79,
-    "floating":  250.41,
-    "day_pnl":  250.41,
+    "equity":  100945.61,
+    "floating":  498.23,
+    "day_pnl":  498.23,
     "floating_by_bot":  {
                             "hydra":  null,
                             "exodia":  null
                         },
     "open_count":  {
-                       "hydra":  3,
+                       "hydra":  4,
                        "exodia":  4
                    },
     "open":  [
+                 {
+                     "symbol":  "XAUUSD",
+                     "tp":  3758.69,
+                     "lots":  0.03,
+                     "open_et":  "2026-11-13 09:00:00",
+                     "sl":  3923.09,
+                     "pnl":  null,
+                     "bot":  "Hydra",
+                     "side":  "SHORT",
+                     "head":  "MTF185",
+                     "entry":  3881.99
+                 },
                  {
                      "symbol":  "XAUUSD",
                      "tp":  0,
@@ -346,7 +358,7 @@
                        "exit_reason":  "time-stop(48 bars)"
                    }
                ],
-    "uni_asof":  "2026-11-13 08:33 ET",
+    "uni_asof":  "2026-11-13 08:48 ET",
     "uni":  {
                 "name":  "UNI",
                 "sub":  "UniBot KEEP · paper · IC Markets · core = off-symbol",
